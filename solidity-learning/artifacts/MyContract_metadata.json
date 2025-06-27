@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning/MyContract.sol": "MyContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning/MyContract.sol": {
+			"keccak256": "0x7c2c5eb290a27ba768967a8e2fb1db1059994083ae8eaa4b8eda44ab7b3e6b0d",
+			"urls": [
+				"bzz-raw://765549385f2c0306d0546e1840b15549ab6d8938c0ef3136a9c72b7dd07bd498",
+				"dweb:/ipfs/QmXZr8tiax7mn1DZQ8nfxoGnN4i6uGtKBVg7kbDTB5kXrn"
+			]
+		}
+	},
+	"version": 1
+}
