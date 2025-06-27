@@ -10,6 +10,10 @@ contract SmartMoney {
         owner = payable(msg.sender);
     }
 
+    function getOwnerAddress() public view returns(address) {
+        return owner;
+    }
+
     function deposit() public payable {
         balanceRecieved += msg.value; 
     }

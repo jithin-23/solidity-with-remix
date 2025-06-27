@@ -31,6 +31,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getOwnerAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address payable",
@@ -79,11 +92,11 @@
 	},
 	"sources": {
 		"solidity-learning/2_SmartMoney/TheSmartMoney.sol": {
-			"keccak256": "0x951a67bd7ec1cc837cf9130d146f15a8bfad2874ec6f6430bce78e5f1efe6585",
+			"keccak256": "0xc75d2156045f01fc329660c3740a1219a258261196edb2a5395f9549c0d42014",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2c9d603b05fbfa61e355fd453100e4e30937082a00a38022158a25c1f49627d1",
-				"dweb:/ipfs/QmW28Jyf3QEcTRAsk8J5pe6AfTi8Eioxyq9oSrS3MaGCrq"
+				"bzz-raw://e0dbc9449c296acd07fb52897b40636657672c32fa1404667c0f756d7b514748",
+				"dweb:/ipfs/QmatfEPCFrS9GNmMPnDXcBPnY9mYaJHJuEd4wDWgejxRZ6"
 			]
 		}
 	},
