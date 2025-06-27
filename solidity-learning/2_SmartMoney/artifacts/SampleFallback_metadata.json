@@ -1,47 +1,17 @@
 {
 	"compiler": {
-		"version": "0.8.14+commit.80d49f37"
+		"version": "0.8.15+commit.e14f2714"
 	},
 	"language": "Solidity",
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "decrementInt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "fallback"
 			},
 			{
 				"inputs": [],
-				"name": "decrementmyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementUint8",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myInt",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint",
+				"name": "getAccountBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -54,12 +24,38 @@
 			},
 			{
 				"inputs": [],
-				"name": "myUint8",
+				"name": "lastFunctionCalled",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "string",
 						"name": "",
-						"type": "uint8"
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "lastValueSent",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -69,21 +65,18 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_myUint",
+						"name": "_newNum",
 						"type": "uint256"
 					}
 				],
-				"name": "setMyUint",
+				"name": "setMyNumber",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "uncheckedDecrementmyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -99,7 +92,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity-learning/contracts/ExampleUint.sol": "ExampleUint"
+			"solidity-learning/2_SmartWallet/SampleFallback.sol": "SampleFallback"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -113,12 +106,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity-learning/contracts/ExampleUint.sol": {
-			"keccak256": "0x3792e69a0c8fbd1753767d71d481a620ed08191fcfece0643894ed5c4bd20fc3",
+		"solidity-learning/2_SmartWallet/SampleFallback.sol": {
+			"keccak256": "0x8a577e84b5b81078d67c69f9d119edea191568346c3e889a25596c03ac445598",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec0cea899b0fd60234e859a718192505825372b726ce5ff3f75921d1c7da86b5",
-				"dweb:/ipfs/QmUoDAPoHbmAgV9GV8mxsMeCy2ZsR674XRw3FxuCUosvGr"
+				"bzz-raw://60b8fd1393b847431c6e39ebbe61fd99c2ccf5d93ceb5a6f3afc7f670fa81616",
+				"dweb:/ipfs/QmWQ3cEgut3RN3rJ7LaWqajk3Yvxfv2wnJ4z8EVWDPg1B9"
 			]
 		}
 	},

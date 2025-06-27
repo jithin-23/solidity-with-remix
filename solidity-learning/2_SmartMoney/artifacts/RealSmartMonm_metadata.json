@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning/2_SmartMoney/TheRealSmartMoney.sol": "RealSmartMonm"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning/2_SmartMoney/TheRealSmartMoney.sol": {
+			"keccak256": "0x3fbbf7d61b673e94a29d57eeab7ea4e9efad9b62cba554a40287b0b6fe87bc27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://500d02efbf5bc2c95e0283bab5a42ab67654197486cb9840615b9e89c681c625",
+				"dweb:/ipfs/QmctzFaBs2UE3Q1EAWFiMBmkJwyviMSKodGjvT1hYJeSTr"
+			]
+		}
+	},
+	"version": 1
+}
