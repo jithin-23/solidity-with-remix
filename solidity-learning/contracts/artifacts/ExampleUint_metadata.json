@@ -4,88 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "decrementInt",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "decrementmyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "incrementUint8",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myInt",
-				"outputs": [
-					{
-						"internalType": "int256",
-						"name": "",
-						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myUint8",
-				"outputs": [
-					{
-						"internalType": "uint8",
-						"name": "",
-						"type": "uint8"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_myUint",
-						"type": "uint256"
-					}
-				],
-				"name": "setMyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "uncheckedDecrementmyUint",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -99,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"solidity-learning/contracts/ExampleUint.sol": "ExampleUint"
+			"solidity-learning/contracts/ExampleViewPure.sol": "ExampleUint"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -113,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"solidity-learning/contracts/ExampleUint.sol": {
-			"keccak256": "0x3792e69a0c8fbd1753767d71d481a620ed08191fcfece0643894ed5c4bd20fc3",
+		"solidity-learning/contracts/ExampleViewPure.sol": {
+			"keccak256": "0x0cb628b21e364348930e1cc6d1ed13391c6ea2964147519af70030d241a8a9ac",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec0cea899b0fd60234e859a718192505825372b726ce5ff3f75921d1c7da86b5",
-				"dweb:/ipfs/QmUoDAPoHbmAgV9GV8mxsMeCy2ZsR674XRw3FxuCUosvGr"
+				"bzz-raw://d518847caf76f93164560878edb3b695e9c952a70389ad92485a5a2d816780b0",
+				"dweb:/ipfs/QmYc5e9SKVw1gYYrhgWG7Aqggvhap5BByd7YDWZVg3q5VM"
 			]
 		}
 	},
