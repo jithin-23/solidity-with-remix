@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning/3_SmartWallet/ExampleCall.sol": "Contract2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning/3_SmartWallet/ExampleCall.sol": {
+			"keccak256": "0xd91c176b45e10e7213b129c017b9f60d1857adb05a338342c219c525d42ce348",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f3633b2e3ba7f75996ab49f848881898a79a4db3986b9bb5ea9c54bb430ed76c",
+				"dweb:/ipfs/QmYmPiLtZJ8Vp8FwEaJPnFFCwvWsE4y6z2Ufy93yo8Xnap"
+			]
+		}
+	},
+	"version": 1
+}

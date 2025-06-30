@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "ThisIsACustomError",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "aFunction",
+				"outputs": [],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning/3_SmartWallet/ExampleTryCatch.sol": "WillThrow"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning/3_SmartWallet/ExampleTryCatch.sol": {
+			"keccak256": "0xf997b3d53a0904bd4c9e57d039c498cb07d84ab1660a92ed10e393afab4c5a02",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a9f6ab839834d7794f34c0deca6767b12cce350b9f2a53f402dc9b37d1819dd",
+				"dweb:/ipfs/Qmb3fDMRLF2aDSjDy29g3R8g4T4r2dtnt5qZzotgqaZeAY"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "contract PaymentReceived",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning/3_SmartWallet/ExampleStruct.sol": "Wallet1"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning/3_SmartWallet/ExampleStruct.sol": {
+			"keccak256": "0x0905b9165e0a473a91cdd4f8ac6f85b557e5da999ae733a6aeb962a4d35fbd7c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6a5e51ec9fe427080786fdc7a9f7002d78501e5e9189bce2dd19d361bffbd41",
+				"dweb:/ipfs/QmWyqpSGufr3egbWTN1yJg7N4hLTbPrhiePeXLotJ6eo3H"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "desositMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getMyBalance",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_amount",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning/3_SmartWallet/ExampleRequireAssert.sol": "ExampleRequireAssert"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning/3_SmartWallet/ExampleRequireAssert.sol": {
+			"keccak256": "0xff35dab6c6244bde02cff5339be44ea76313e3705e9d8fee46ee081d96188734",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cfc48ab12f2c5ab65a48873b1c9058cb82d987c166b4ba59498a6b667e14c4b7",
+				"dweb:/ipfs/QmdAWiSG9T4n2XVFoKrqoZW7fbYjDMnxpNnCBHkRW43Jce"
+			]
+		}
+	},
+	"version": 1
+}

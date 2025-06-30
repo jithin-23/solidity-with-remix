@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.15+commit.e14f2714"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"solidity-learning/3_SmartWallet/ExampleStruct.sol": "PaymentRecieved"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"solidity-learning/3_SmartWallet/ExampleStruct.sol": {
+			"keccak256": "0xe83dfe615e6e9519e7725c4da81d442a6727bb5acdf308ff1c88d6cc4b890ecb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4e6dabea7601f2e4629de0fc98ccaaddce945729f127dc1e0bdf8bee97326e5f",
+				"dweb:/ipfs/QmVg8LXiz2MV9voGaY6c6KNU6YhEW5BpzVRNg3GjqrMEq5"
+			]
+		}
+	},
+	"version": 1
+}
