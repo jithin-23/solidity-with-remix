@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Hardhat build artifacts
+artifacts/
+cache/
+typechain/
+typechain-types/
+
+# Hardhat deployment state (if using hardhat-deploy)
+.deployments/
+.deploy/
+.states/
+
+# Foundry build (if using Foundry)
+out/
+libs/
+lib/
+broadcast/
+cache/
+
+# Dependency folder (used by some plugins)
+.deps/
+
+# Truffle build
+build/
+
+# Env files (you'll keep secrets here)
+.env
+.env.*
+
+# Logs
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
